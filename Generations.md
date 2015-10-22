@@ -1,6 +1,6 @@
 Below is the mapping table from platform to generation. Targeting a generation means you can run on the platform specified on the right. 
 
-e.g. If a library targets .NET Platform 5.5, it can run only run on .NET 4.6.1 and DNX Core 5.0
+e.g. If a library targets .NET Platform 5.5, it can run *only* run on .NET 4.6.1 and DNX Core 5.0
 
 | Generation | Platforms |
 | ---------- | --------- |
@@ -11,7 +11,16 @@ e.g. If a library targets .NET Platform 5.5, it can run only run on .NET 4.6.1 a
 | .NET Platform 5.5 | .NET Framework >= 4.6.1, DNX Core >= 5.0  |
 
 ### NuGet mapping
+When building a NuGet package, specifing folder with the mapping is enough to indicate what platforms your package targets.
 
+MyPackage
+```
+MyPackage/lib/net45/MyPackage.dll
+```
+
+The above package targets .NET Framework 4.5.
+
+**TODO: List other rules around dependency groups in nuget packages with examples.**
 
 #### Generation mapping
 
