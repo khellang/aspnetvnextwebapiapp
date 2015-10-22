@@ -29,7 +29,6 @@
 | System.Data.SqlClient | X | <- | <- | <- | <- |
 | System.Diagnostics.Contracts | X | <- | <- | <- | <- |
 | System.Diagnostics.Debug | X | <- | <- | X | <- |
-| System.Diagnostics.DiagnosticSource |  |  |  |  |  |
 | System.Diagnostics.FileVersionInfo | X | <- | <- | <- | <- |
 | System.Diagnostics.Process |  |  |  | X | X |
 | System.Diagnostics.StackTrace | X | <- | <- | <- | <- |
