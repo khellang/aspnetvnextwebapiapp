@@ -1,19 +1,42 @@
-Below is the mapping table from platform to generation.
+Below is the mapping table from platform to generation. Targeting a generation means you can run on the platform specified on the right. 
+
+e.g. If a library targets .NET Platform 5.5, it can run only run on .NET 4.6.1 and DNX Core 5.0
 
 | Generation | Platforms |
 | ---------- | --------- |
-| 5.1 | .NET >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0, Windows Phone Silverlight (8 & 8.1) |
-| 5.2 | .NET >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
-| 5.3 | .NET >= 4.5.1, Windows >= 8.1, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
-| 5.4 | .NET >= 4.6, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
-| 5.5 | .NET >= 4.6.1, DNX Core >= 5.0  |
+| .NET Platform 5.1 | .NET Framework >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0, Windows Phone Silverlight (8 & 8.1) |
+| .NET Platform 5.2 | .NET Framework >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
+| .NET Platform 5.3 | .NET Framework >= 4.5.1, Windows >= 8.1, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
+| .NET Platform 5.4 | .NET Framework >= 4.6, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
+| .NET Platform 5.5 | .NET Framework >= 4.6.1, DNX Core >= 5.0  |
+
+### NuGet mapping
+
+
+#### Generation mapping
+
+| Generation | NuGet framework |
+| ---------| --------------- |
+| .NET Platform 5.1-5.5 | dotnet5.1, dotnet5.5 |
+
+#### Specific platform mapping
+
+| Platform | NuGet framework |
+| ---------| --------------- |
+| .NET Framework 2.0-4.6 | net20 - net46 |
+| Windows 8 | win8, netcore45 |
+| Windows 8.1 | win8, netcore451 |
+| Windows Phone Silverlight (8, 8.1) | wp8, wp81 |
+| Windows Phone 8.1 | wpa8.1 |
+| Universal Windows Platform 10 | uap10, netcore50 |
+| DNX Core 5.0 | dnxcore50  |
 
 ### Legend 
 - `X` - API appeared in specific generation
 - `<-` - API version deterined by nearest `X`
 
 
-| Contract | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 |
+| Contract | .NET Platform 5.1 | .NET Platform 5.2 | .NET Platform 5.3 | .NET Platform 5.4 | .NET Platform 5.5 |
 | -------- | --- | --- | --- | --- | --- |
 | Microsoft.CSharp | X | <- | <- | <- | <- |
 | Microsoft.VisualBasic |  | X | <- | <- | <- |
