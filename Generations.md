@@ -18,7 +18,8 @@ e.g. If a library targets Generation 5.5, it can run *only* run on .NET 4.6.1 an
 ||Windows Phone >= 8.1|
 ||Universal Windows Platform 10 (UWP) |
 ||DNX Core >= 5.0|
-||Windows Phone Silverlight (8 & 8.1) |
+||Windows Phone Silverlight 8 |
+||Windows Phone Silverlight 8.1 |
 | 5.2 ||
 ||.NET Framework >= 4.5| 
 ||Windows >= 8| 
