@@ -72,7 +72,9 @@ The above package targets .NET Framework 4.5.
 | Universal Windows Platform 10 | uap10, netcore50 |
 | DNX Core 5.0 | dnxcore50  |
 
-### Legend 
+### List of BCL APIs and their associated generations
+
+#### Legend 
 - `X` - API appeared in specific generation
 - `<-` - API version determined by nearest `X` e.g. In the table below, if you target generation 5.5 and reference Microsoft.CSharp, you'd get the 5.1 API version.
 
