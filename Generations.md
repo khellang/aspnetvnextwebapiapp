@@ -121,7 +121,6 @@
 | System.Threading.AccessControl | X | <- | <- | <- | <- |
 | System.Threading.Overlapped |  |  |  | X | <- |
 | System.Threading.Tasks | X | <- | <- | X | <- |
-| System.Threading.Tasks.Dataflow |  |  |  |  |  |
 | System.Threading.Tasks.Parallel |  | X | <- | <- | <- |
 | System.Threading.Thread | X | <- | <- | <- | <- |
 | System.Threading.ThreadPool |  | X | <- | <- | <- |
