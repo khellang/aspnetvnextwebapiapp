@@ -1,22 +1,16 @@
+| Generation | Platforms |
+| ---------- | --------- |
+| 5.1 | Windows Phone Silverlight (8 & 8.1)|
+| 5.2 | .NET 4.5, Windows 8 |
+| 5.3 | .NET 4.5.1/4.5.2, Windows 8.1, Windows Phone 8.1 |
+| 5.4 | .NET 4.6, UWP |
+| 5.5 | .NET 4.6.1, DNX Core 5.0  |
+
+
 | Contract | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 |
 | -------- | --- | --- | --- | --- | --- |
 | Microsoft.Cci |  |  |  |  |  |
 | Microsoft.CSharp | X | <- | <- | <- | <- |
-| Microsoft.NETCore |  |  |  |  |  |
-| Microsoft.NETCore.Console |  |  |  |  |  |
-| Microsoft.NETCore.ConsoleHost |  |  |  |  |  |
-| Microsoft.NETCore.Platforms |  |  |  |  |  |
-| Microsoft.NETCore.Portable.Compatibility |  |  |  |  |  |
-| Microsoft.NETCore.Runtime |  |  |  |  |  |
-| Microsoft.NETCore.Runtime.CoreCLR |  |  |  |  |  |
-| Microsoft.NETCore.Runtime.Native |  |  |  |  |  |
-| Microsoft.NETCore.Targets |  |  |  |  |  |
-| Microsoft.NETCore.Targets.DNXCore |  |  |  |  |  |
-| Microsoft.NETCore.Targets.NETFramework |  |  |  |  |  |
-| Microsoft.NETCore.Targets.UniversalWindowsPlatform |  |  |  |  |  |
-| Microsoft.NETCore.TestHost |  |  |  |  |  |
-| Microsoft.NETCore.UniversalWindowsPlatform |  |  |  |  |  |
-| Microsoft.NETCore.Windows.ApiSets |  |  |  |  |  |
 | Microsoft.VisualBasic |  | X | <- | <- | <- |
 | Microsoft.Win32.Primitives | X | <- | <- | <- | <- |
 | Microsoft.Win32.Registry |  | X | <- | <- | <- |
