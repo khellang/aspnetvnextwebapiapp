@@ -1,3 +1,11 @@
+### .NET Generations
+
+### Terms and examples
+- **Platform** - e.g. .NET Framework 4.5, Windows Phone 8.1
+- **Generation** - A representation of the common surface area across *all* Platforms. e.g. .NET Platform 5.1
+
+Platforms expose .NET surface area from a particular generation.
+
 Below is the mapping table from platform to generation. Targeting a generation means you can run on the platform specified on the right. 
 
 e.g. If a library targets .NET Platform 5.5, it can run *only* run on .NET 4.6.1 and DNX Core 5.0
@@ -24,13 +32,13 @@ The above package targets .NET Framework 4.5.
 
 #### Generation mapping
 
-| Generation | NuGet framework |
+| Generation | NuGet identifier |
 | ---------| --------------- |
 | .NET Platform 5.1-5.5 | dotnet5.1, dotnet5.5 |
 
 #### Specific platform mapping
 
-| Platform | NuGet framework |
+| Platform | NuGet identifier |
 | ---------| --------------- |
 | .NET Framework 2.0-4.6 | net20 - net46 |
 | Windows 8 | win8, netcore45 |
