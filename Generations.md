@@ -8,7 +8,7 @@ Platforms expose .NET surface area from a particular generation.
 
 Below is the mapping table from platform to generation. Targeting a generation means you can run on the platform specified on the right. 
 
-e.g. If a library targets .NET Platform 5.5, it can run *only* run on .NET 4.6.1 and DNX Core 5.0
+e.g. If a library targets Generation 5.5, it can run *only* run on .NET 4.6.1 and DNX Core 5.0
 
 | Generation | Platforms |
 | ---------- | --------- |
