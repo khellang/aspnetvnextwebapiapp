@@ -18,7 +18,7 @@ e.g. If a library targets Generation 5.5, it can run *only* run on .NET 4.6.1 an
 | 5.4 | .NET Framework >= 4.6, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
 | 5.5 | .NET Framework >= 4.6.1, DNX Core >= 5.0  |
 
-**TODO: Xamarin Platforms **
+**TODO: Xamarin Platforms**
 
 ### NuGet mapping
 When building a NuGet package, specifing folder with the mapping is enough to indicate what platforms your package targets.
