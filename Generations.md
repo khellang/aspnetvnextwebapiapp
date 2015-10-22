@@ -9,7 +9,6 @@
 
 | Contract | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 |
 | -------- | --- | --- | --- | --- | --- |
-| Microsoft.Cci |  |  |  |  |  |
 | Microsoft.CSharp | X | <- | <- | <- | <- |
 | Microsoft.VisualBasic |  | X | <- | <- | <- |
 | Microsoft.Win32.Primitives | X | <- | <- | <- | <- |
@@ -18,7 +17,6 @@
 | System.AppContext | X | <- | <- | <- | <- |
 | System.Collections | X | <- | <- | X | <- |
 | System.Collections.Concurrent |  | X | <- | X | <- |
-| System.Collections.Immutable |  |  |  |  |  |
 | System.Collections.NonGeneric | X | <- | <- | <- | <- |
 | System.Collections.Specialized | X | <- | <- | <- | <- |
 | System.ComponentModel | X | <- | <- | <- | <- |
@@ -74,12 +72,7 @@
 | System.Net.WebSockets | X | <- | <- | <- | <- |
 | System.Net.WebSockets.Client |  |  |  | X | <- |
 | System.Numerics.Vectors |  |  |  | X | <- |
-| System.Numerics.Vectors.WindowsRuntime |  |  |  |  |  |
 | System.ObjectModel | X | <- | <- | X | <- |
-| System.Private.DataContractSerialization |  |  |  |  |  |
-| System.Private.Networking |  |  |  |  |  |
-| System.Private.ServiceModel |  |  |  |  |  |
-| System.Private.Uri |  |  |  |  |  |
 | System.Reflection | X | <- | <- | X | X |
 | System.Reflection.Context |  | X | <- | <- | <- |
 | System.Reflection.DispatchProxy | X | <- | <- | <- | <- |
@@ -87,7 +80,6 @@
 | System.Reflection.Emit.ILGeneration | X | <- | <- | <- | <- |
 | System.Reflection.Emit.Lightweight | X | <- | <- | <- | <- |
 | System.Reflection.Extensions | X | <- | <- | <- | <- |
-| System.Reflection.Metadata |  |  |  |  |  |
 | System.Reflection.Primitives | X | <- | <- | <- | <- |
 | System.Reflection.TypeExtensions | X | <- | <- | <- | <- |
 | System.Resources.ReaderWriter | X | <- | <- | <- | <- |
@@ -126,7 +118,6 @@
 | System.Text.Encoding | X | <- | <- | X | <- |
 | System.Text.Encoding.CodePages |  |  |  | X | <- |
 | System.Text.Encoding.Extensions | X | <- | <- | X | <- |
-| System.Text.Encodings.Web |  |  |  |  |  |
 | System.Text.RegularExpressions | X | <- | <- | X | <- |
 | System.Threading | X | <- | <- | X | <- |
 | System.Threading.AccessControl | X | <- | <- | <- | <- |
