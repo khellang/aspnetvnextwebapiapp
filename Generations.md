@@ -37,7 +37,6 @@
 | System.Diagnostics.Tools | X | <- | <- | <- | <- |
 | System.Diagnostics.TraceSource | X | <- | <- | <- | <- |
 | System.Diagnostics.Tracing |  | X | X | X | <- |
-| System.Diagnostics.Tracing.Telemetry |  |  |  |  |  |
 | System.Dynamic.Runtime | X | <- | <- | X | <- |
 | System.Globalization | X | <- | <- | X | <- |
 | System.Globalization.Calendars | X | <- | <- | <- | <- |
@@ -60,7 +59,6 @@
 | System.Linq.Queryable | X | <- | <- | <- | <- |
 | System.Net.Http |  | X | <- | <- | <- |
 | System.Net.Http.Rtc |  | X | <- | <- | <- |
-| System.Net.Http.WinHttpHandler |  |  |  |  |  |
 | System.Net.NameResolution |  |  |  | X | <- |
 | System.Net.NetworkInformation | X | <- | <- | <- | X |
 | System.Net.Primitives | X | X | <- | X | <- |
