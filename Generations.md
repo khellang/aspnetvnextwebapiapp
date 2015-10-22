@@ -52,7 +52,7 @@ The above package targets .NET Framework 4.5.
 
 ### Legend 
 - `X` - API appeared in specific generation
-- `<-` - API version deterined by nearest `X`
+- `<-` - API version determined by nearest `X` e.g. In the table below, if you target generation 5.5 and reference Microsoft.CSharp, you'd get the 5.1 API version.
 
 | Contract | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 |
 | -------- | --- | --- | --- | --- | --- |
