@@ -6,6 +6,10 @@
 | 5.4 | .NET 4.6, UWP |
 | 5.5 | .NET 4.6.1, DNX Core 5.0  |
 
+### Legend 
+- `X` - API appeared in specific generation
+- `<-` - API version deterined by nearest `X`
+
 
 | Contract | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 |
 | -------- | --- | --- | --- | --- | --- |
