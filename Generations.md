@@ -2,7 +2,7 @@
 
 ### Terms and examples
 - **Platform** - e.g. .NET Framework 4.5, Windows Phone 8.1
-- **Generation** - A representation of the common surface area across *all* Platforms. e.g. .NET Platform 5.1
+- **Generation** - A representation of the common surface area across *all* Platforms.
 
 Platforms expose .NET surface area from a particular generation.
 
@@ -12,11 +12,11 @@ e.g. If a library targets .NET Platform 5.5, it can run *only* run on .NET 4.6.1
 
 | Generation | Platforms |
 | ---------- | --------- |
-| .NET Platform 5.1 | .NET Framework >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0, Windows Phone Silverlight (8 & 8.1) |
-| .NET Platform 5.2 | .NET Framework >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
-| .NET Platform 5.3 | .NET Framework >= 4.5.1, Windows >= 8.1, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
-| .NET Platform 5.4 | .NET Framework >= 4.6, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
-| .NET Platform 5.5 | .NET Framework >= 4.6.1, DNX Core >= 5.0  |
+| 5.1 | .NET Framework >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0, Windows Phone Silverlight (8 & 8.1) |
+| 5.2 | .NET Framework >= 4.5, Windows >= 8, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
+| 5.3 | .NET Framework >= 4.5.1, Windows >= 8.1, Windows Phone >= 8.1, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
+| 5.4 | .NET Framework >= 4.6, Universal Windows Platform 10 (UWP), DNX Core >= 5.0 |
+| 5.5 | .NET Framework >= 4.6.1, DNX Core >= 5.0  |
 
 ### NuGet mapping
 When building a NuGet package, specifing folder with the mapping is enough to indicate what platforms your package targets.
@@ -34,7 +34,7 @@ The above package targets .NET Framework 4.5.
 
 | Generation | NuGet identifier |
 | ---------| --------------- |
-| .NET Platform 5.1-5.5 | dotnet5.1, dotnet5.5 |
+| 5.1-5.5 | dotnet5.1, dotnet5.5 |
 
 #### Specific platform mapping
 
@@ -53,7 +53,7 @@ The above package targets .NET Framework 4.5.
 - `<-` - API version deterined by nearest `X`
 
 
-| Contract | .NET Platform 5.1 | .NET Platform 5.2 | .NET Platform 5.3 | .NET Platform 5.4 | .NET Platform 5.5 |
+| Contract | 5.1 | 5.2 | 5.3 | 5.4 | 5.5 |
 | -------- | --- | --- | --- | --- | --- |
 | Microsoft.CSharp | X | <- | <- | <- | <- |
 | Microsoft.VisualBasic |  | X | <- | <- | <- |
